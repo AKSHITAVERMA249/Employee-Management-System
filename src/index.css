@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #f6cf08;
+}
+body{
+  background-color: #111;
+}
+#tasklist::-webkit-scrollbar{
+    background-color: transparent;
+    height: 5px;
+}
+#tasklist::-webkit-scrollbar-thumb{
+  background-color: rgb(20, 232, 13);
+  border-radius: 50px;
+}
